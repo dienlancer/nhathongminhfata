@@ -30,37 +30,37 @@ msgstr "0"
 msgid "This changeset cannot be further modified."
 msgstr "Lần sửa đổi này không thể thực thi."
 
-#: wp-admin/about.php:262
+#: wp-admin/about.php:298
 msgid "Improvements to Roles and Capabilities"
 msgstr "Cải tiến Vai trò và Phân quyền"
 
-#: wp-admin/about.php:263
+#: wp-admin/about.php:299
 msgid "New capabilities have been introduced that allow granular management of plugins and translation files. In addition, the site switching process in multisite has been fine-tuned to update the available roles and capabilities in a more reliable and coherent way."
 msgstr "Việc bổ sung khả năng phân quyền mới giúp quản lý plugin và file ngôn ngữ linh hoạt hơn. Thêm vào đó, quá trình chuyển đổi sang Multisite đi kèm với tự động cập nhật phân quyền tài khoản."
 
-#: wp-admin/about.php:259
+#: wp-admin/about.php:295
 msgid "WordPress 4.9 includes an upgraded version of MediaElement.js, which removes dependencies on jQuery, improves accessibility, modernizes the UI, and fixes many bugs."
 msgstr "WordPress 4.9 mang tới bản cập nhật cho thư viện MediaElement.js, trong đó gỡ bỏ các thành phần của jQuery, tối ưu hoá giao diện và sửa nhiều lỗi."
 
-#: wp-admin/about.php:258
+#: wp-admin/about.php:294
 msgid "MediaElement.js upgraded to 4.2.6"
 msgstr "Thư viện MediaElement.js cập nhật phiên bản 4.2.6"
 
-#: wp-admin/about.php:255
+#: wp-admin/about.php:291
 msgid "We&#8217;ve introduced a new code editing library, CodeMirror, for use within core. Use it to improve any code writing or editing experiences within your plugins, like CSS or JavaScript include fields."
 msgstr "Thư viện coding mới mang tên CodeMirror được tích hợp vào Core hệ thống, mang lại trải nghiệm tốt hơn khi bạn viết code bằng CSS hoặc Javascript trong các mục nhập."
 
-#: wp-admin/about.php:254
+#: wp-admin/about.php:290
 msgid "CodeMirror available for use in your themes and plugins"
 msgstr "CodeMirror có sẵn để sử dụng với giao diện hoặc plugin"
 
 #. translators: %s:
 #. https://make.wordpress.org/core/2017/11/01/improvements-to-the-customize-js-api-in-4-9/
-#: wp-admin/about.php:248
+#: wp-admin/about.php:284
 msgid "We&#8217;ve made numerous improvements to the Customizer JS API in WordPress 4.9, eliminating many pain points and making it just as easy to work with as the PHP API. There are also new base control templates, a date/time control, and section/panel/global notifications to name a few. <a href=\"%s\">Check out the full list.</a>"
 msgstr "Rất nhiều cải thiện dành cho JS API của Tuỳ biến giao diện trong phiên bản WordPress 4.9 giúp nó hoạt động dễ dàng hơn với PHP API. Ngoài ra, giao diện quản trị nền mới, quản lý thời gian và thông báo sẽ giúp bạn sử dụng dễ hơn nhiều. <a href=\"%s\">Xem đầy đủ danh sách các phần đã cải thiện.</a>"
 
-#: wp-admin/about.php:244
+#: wp-admin/about.php:280
 msgid "Customizer JS API Improvements"
 msgstr "Cải thiện JS API cho Tuỳ biến giao diện"
 
@@ -68,7 +68,7 @@ msgstr "Cải thiện JS API cho Tuỳ biến giao diện"
 msgid "This data is used to provide general enhancements to WordPress, which includes helping to protect your site by finding and automatically installing new updates. It is also used to calculate statistics, such as those shown on the <a href=\"%s\">WordPress.org stats page</a>."
 msgstr "Dữ liệu này được sử dụng để cải tiến chung dành cho WordPress, bao gồm bảo vệ website của bạn bằng cách tìm và cài các bản nâng cấp mới. Nó cũng được dùng cho việc thống kê, như hiển thị trong <a href=\"%s\">trang thống kê của WordPress.org</a>."
 
-#: wp-admin/about.php:157
+#: wp-admin/about.php:193
 msgid "When you edit themes and plugins directly, WordPress 4.9 will politely warn you that this is a dangerous practice. It will recommend that you backup your files before saving, so they don&#8217;t get overwritten by the next update. Take the safe route: your future self will thank you. Your team and customers will thank you."
 msgstr "Khi bạn sửa trực tiếp các giao diện và gói mở rộng, WordPress 4.9 sẽ cảnh báo đây là hành động nguy hiểm. Bạn sẽ cần sao lưu các file trước khi tiến hành lưu để tránh bị ghi đè bởi các bản nâng cấp. An toàn là bạn - tai nạn là thù phải không nào!"
 
@@ -145,52 +145,52 @@ msgid "Enter the address here if you <a href=\"%s\">want your site home page to 
 msgstr "Nhập địa chỉ nếu bạn <a href=\"%s\">muốn địa chỉ website khác thư mục cài đặt WordPress</a>."
 
 #. translators: %s: smiling face with smiling eyes emoji
-#: wp-admin/about.php:237
+#: wp-admin/about.php:273
 msgid "Developer Happiness %s"
 msgstr "Lập trình viên thích hơn %s"
 
-#: wp-admin/about.php:226
+#: wp-admin/about.php:262
 msgid "WordPress is working on a new way to create and control your content and we&#8217;d love to have your help. Interested in being an <a href=\"%s\">early tester</a> or getting involved with the Gutenberg project? <a href=\"%s\">Contribute on GitHub</a>."
 msgstr "WordPress đang thử nghiệm cách mới để tạo và quản lý nội dung. Chúng tôi rất cần bạn trợ giúp. Bạn có muốn tham gia <a href=\"%s\">tham gia test trước</a> hoặc đóng góp cho dự án Gutenberg? <a href=\"%s\">Ghé thăm trên GitHub</a>."
 
-#: wp-admin/about.php:227
+#: wp-admin/about.php:263
 msgid "https://wordpress.org/plugins/gutenberg/"
 msgstr "https://vi.wordpress.org/plugins/gutenberg/"
 
 #. translators: %s: handshake emoji
-#: wp-admin/about.php:220
+#: wp-admin/about.php:256
 msgid "Lend a Hand with Gutenberg %s"
 msgstr "Biên tập tốt hơn với Gutenberg %s"
 
-#: wp-admin/about.php:195
+#: wp-admin/about.php:231
 msgid "More Reliable Theme Switching"
 msgstr "Chuyển giao diện dễ dàng hơn"
 
-#: wp-admin/about.php:187
+#: wp-admin/about.php:223
 msgid "Site Building Improvements"
 msgstr "Cải thiện Tuỳ chọn giao diện"
 
-#: wp-admin/about.php:172
+#: wp-admin/about.php:208
 msgid "The New Gallery Widget"
 msgstr "Widget thư viện ảnh mới"
 
-#: wp-admin/about.php:164
+#: wp-admin/about.php:200
 msgid "Even More Widget Updates"
 msgstr "Thêm nhiều Widget hơn"
 
-#: wp-admin/about.php:127
+#: wp-admin/about.php:163
 msgid "Were you lured away from your desk before you saved your new draft design? Fear not, when you return, WordPress 4.9 will politely ask whether or not you&#8217;d like to save your unsaved changes."
 msgstr "Bạn sợ mất bản nháp chỉnh sửa thiết kế? WordPress 4.9 sẽ hỏi bạn có muốn lưu các thay đổi không trước khi cập nhật."
 
-#: wp-admin/about.php:134
+#: wp-admin/about.php:170
 msgid "Coding Enhancements"
 msgstr "Cải thiện hỗ trợ Coding"
 
-#: wp-admin/about.php:126
+#: wp-admin/about.php:162
 msgid "A Prompt to Protect Your Work"
 msgstr "Hỏi để bảo vệ dữ liệu của bạn"
 
-#: wp-admin/about.php:119
+#: wp-admin/about.php:155
 msgid "Design Locking To Guard Your Changes"
 msgstr "Bảo vệ thay đổi khi Tuỳ biến giao diện"
 
@@ -202,80 +202,80 @@ msgstr "Chúng tôi rất coi trọng sự riêng tư và minh bạch. Để tì
 msgid "From time to time, your WordPress site may send data to WordPress.org &#8212; including, but not limited to &#8212; the version of WordPress you are using, and a list of installed plugins and themes."
 msgstr "Đôi khi website WordPress của bạn có thể gửi dữ liệu tới WordPress, bao gồm, nhưng không giới hạn, phiên bản bạn đang sử dụng, và danh sách các giao diện và plugin đã cài."
 
-#: wp-admin/about.php:203
+#: wp-admin/about.php:239
 msgid "Were you confused by the steps to create a new menu? Perhaps no longer! We&#8217;ve ironed out the UX for a smoother menu creation process. Newly updated copy will guide you."
 msgstr "Bạn băn khoăn với các bước tạo menu mới? Hãy yên tâm! Mọi thứ đã được tối ưu cho quá trình tạo menu dễ dàng hơn rất nhiều."
 
-#: wp-admin/about.php:202
+#: wp-admin/about.php:238
 msgid "Better Menu Instructions = Less Confusion"
 msgstr "Hướng dẫn quản lý Menu dễ dàng hơn"
 
-#: wp-admin/about.php:196
+#: wp-admin/about.php:232
 msgid "When you switch themes, widgets sometimes think they can just up and move location. Improvements in WordPress 4.9 offer more persistent menu and widget placement when you decide it&#8217;s time for a new theme. Additionally, you can preview installed themes or download, install, and preview new themes right. Nothing says handy like being able to preview before you deploy. "
 msgstr "Khi bạn chuyển giao diện, đôi khi widget có thể không hiển thị. Trong phiên bản WordPress 4.9, bạn có thể thiết lập các vị trí của menu và widget khi bạn thay đổi giao diện. Hơn nữa, bạn có thể xem trước giao diện đã cài hoặc tải về, cài đặt và xem giao diện mới tức thì. Không gì tốt hơn xem thử trước khi bạn chính thức cài đặt nó."
 
-#: wp-admin/about.php:180
+#: wp-admin/about.php:216
 msgid "Want to add media to your text widget? Embed images, video, and audio directly into the widget along with your text, with our simple but useful Add Media button. Woo!"
 msgstr "Muốn thêm đa phương tiện vào trong widget HTML? Nhúng ảnh, video và audio trực tiếp với nút \"Thêm media\" đơn giản mà hữu dụng."
 
-#: wp-admin/about.php:173
+#: wp-admin/about.php:209
 msgid "An incremental improvement to the media changes hatched in WordPress 4.8, you can now add a gallery via widget. Yes!"
 msgstr "Phần Thư viện đã được tối ưu hoá từ phiên bản WordPress 4.8, và nay bạn có thể thêm Thư viện ảnh bằng widget."
 
-#: wp-admin/about.php:179
+#: wp-admin/about.php:215
 msgid "Press a Button, Add Media"
 msgstr "Nhấn nút Thêm Media"
 
-#: wp-admin/about.php:150
+#: wp-admin/about.php:186
 msgid "The dreaded white screen. You&#8217;ll avoid it when working on themes and plugin code because WordPress 4.9 will warn you about saving an error. You&#8217;ll sleep better at night."
 msgstr "Không còn lỗi màn hình trắng. Khi bạn sửa giao diện hay plugin, WordPress 4.9 sẽ thông báo nếu bạn lưu các chỉnh sửa có chứa lỗi. Tuyệt cú mèo!"
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:192
 msgid "Warning: Potential Danger Ahead!"
 msgstr "Cảnh báo: Thông báo lỗi có thể xảy ra!"
 
-#: wp-admin/about.php:149
+#: wp-admin/about.php:185
 msgid "Sandbox for Safety"
 msgstr "Dùng Sandbox kiểm thử an toàn"
 
-#: wp-admin/about.php:143
+#: wp-admin/about.php:179
 msgid "You&#8217;ve got a display problem but can&#8217;t quite figure out exactly what went wrong in the CSS you lovingly wrote. With syntax highlighting and error checking for CSS editing and the Custom HTML widget introduced in WordPress 4.8.1, you&#8217;ll pinpoint coding errors quickly. Practically guaranteed to help you scan code more easily and suss out and fix code errors quickly."
 msgstr "Với code highlight và kiểm tra lỗi dành cho CSS cùng widget HTML được giới thiệu từ phiên bản 4.8.1, bạn sẽ không còn mệt mỏi với những dòng code nữa. Dễ nhìn, dễ sửa và sửa lỗi vô cùng nhanh."
 
-#: wp-admin/about.php:142
+#: wp-admin/about.php:178
 msgid "Syntax Highlighting and Error Checking? Yes, Please!"
 msgstr "Code Highlight và Kiểm tra lỗi? Tất nhiên, đã sẵn sàng!"
 
-#: wp-admin/about.php:120
+#: wp-admin/about.php:156
 msgid "Ever encounter a scenario where two designers walk into a project and designer A overrides designer B&#8217;s beautiful changes? WordPress 4.9&#8217;s design lock feature (similar to post locking) secures your draft design so that no one can make changes to it or erase all your hard work."
 msgstr "Bạn có từng gặp hoàn cảnh hai người cùng sửa một công việc và ghi đè kết quả lên lẫn nhau? WordPress 4.9 xây dựng tính năng Khóa để bảo vệ bản nháp tuỳ biến của bạn để không ai có thể thay đổi hay xoá kết quả đó."
 
-#: wp-admin/about.php:113
+#: wp-admin/about.php:149
 msgid "Need to get some feedback on proposed site design changes? WordPress 4.9 gives you a preview link you can send to your team and customers so that you can collect and integrate feedback before you schedule the changes to go live. Can we say collaboration&#43;&#43;?"
 msgstr "Cần ai đó tư vấn những thay đổi mới trong website sau khi Tuỳ chỉnh giao diện? WordPress 4.9 cung cấp cho bạn một liên kết mà bạn có thể chia sẻ cho người khấc xem thử để đánh giá và cho ý kiến trước khi bạn công bố thay đổi đó."
 
-#: wp-admin/about.php:112
+#: wp-admin/about.php:148
 msgid "Collaborate with Design Preview Links"
 msgstr "Xem thử Tuỳ chỉnh giao diện bằng liên kết chia sẻ riêng"
 
-#: wp-admin/about.php:106
+#: wp-admin/about.php:142
 msgid "Yes, you read that right. Just like you can draft and revise posts and schedule them to go live on the date and time you choose, you can now tinker with your site&#8217;s design and schedule those design changes to go live as you please."
 msgstr "Đúng, chính là điều bạn đang nghĩ. Cũng tương tự như bản nháp và lên lịch bài viết, các tính năng này cũng xuất hiện trong Tuỳ chỉnh giao diện. Bạn sẽ yên tâm để nửa đêm và website tự cập nhật phiên bản giao diện với bố cục mới chẳng hạn. Chẳng tuyệt vời lắm sao?"
 
-#: wp-admin/about.php:84
+#: wp-admin/about.php:120
 msgid "Welcome to an improved Customizer workflow with design drafts, locking, scheduling, and preview links. What&#8217;s more, code syntax highlighting and error checking will make for a clean and smooth site building experience. Finally, if all that wasn&#8217;t pretty great, we&#8217;ve got a great new Gallery widget and improvements to theme browsing and switching."
 msgstr "Chào mừng đến với phiên bản cải tiến của tính năng Tuỳ biến giao diện. Các tính năng mới đã sẵn sàng cho bạn như sửa và lưu bản nháp, tạm khoá, lên lịch và share link xem thử các chỉnh sửa. Còn hơn thế, nay bạn có thể nhìn thấy code highlight và kiểm tra lỗi để có những trải nghiệm tuyệt vời hơn. Cuối cùng, không còn gì tốt hơn widget mới dành cho Gallery và tối ưu khi chuyển đổi giao diện."
 
-#: wp-admin/about.php:105
+#: wp-admin/about.php:141
 msgid "Draft and Schedule Site Design Customizations"
 msgstr "Bản nháp và Lên lịch cho Tuỳ chỉnh giao diện"
 
-#: wp-admin/about.php:97
+#: wp-admin/about.php:133
 msgid "Customizer Workflow Improved"
 msgstr "Tối ưu Tuỳ chỉnh giao diện"
 
 #. translators: %s: party popper emoji
-#: wp-admin/about.php:79
+#: wp-admin/about.php:115
 msgid "Major Customizer Improvements, Code Error Checking, and More! %s"
 msgstr "Tối ưu Tuỳ biến giao diện,  Kiểm tra lỗi Code và nhiều hơn thế!"
 
@@ -542,7 +542,7 @@ msgstr "Bản nháp mới nhất"
 msgid "Your PHP code changes were rolled back due to an error on line %1$s of file %2$s. Please fix and try saving again."
 msgstr "Đoạn code PHP bạn thay đổi đã được khôi phục vì có lỗi trong dòng số %1$s của file %2$s. Hãy sửa và thử lưu lại."
 
-#: wp-admin/includes/class-wp-users-list-table.php:492
+#: wp-admin/includes/class-wp-users-list-table.php:496
 msgctxt "name"
 msgid "Unknown"
 msgstr "Không rõ"
@@ -1695,7 +1695,7 @@ msgid "Welcome to %s. This is your first post. Edit or delete it, then start blo
 msgstr "Chào mừng bạn đến %s. Đây là bài viết đầu tiên của bạn. Chỉnh sửa hoặc xóa nó, sau đó bắt đầu viết blog!"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:390
+#: wp-admin/about.php:426
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Phiên bản %s</strong> đã giải quyết vấn đề bảo mật."
 
@@ -1712,15 +1712,15 @@ msgstr "Bạn có thể thay đổi hình ảnh hồ sơ tại <a href=\"%s\">Gr
 msgid "Profile Picture"
 msgstr "Ảnh hồ sơ"
 
-#: wp-admin/about.php:381
+#: wp-admin/about.php:417
 msgid "Maintenance Releases"
 msgstr "Các phiên bản bảo trì"
 
-#: wp-admin/about.php:384
+#: wp-admin/about.php:420
 msgid "Security Releases"
 msgstr "Các phiên bản bảo mật"
 
-#: wp-admin/about.php:34 wp-admin/about.php:387
+#: wp-admin/about.php:34 wp-admin/about.php:423
 msgid "Maintenance and Security Releases"
 msgstr "Các phiên bản bảo trì và bảo mật"
 
@@ -2097,7 +2097,7 @@ msgstr "Xem tất cả bản nháp"
 msgid "Items list navigation"
 msgstr "Điều hướng danh sách các mục"
 
-#: wp-admin/includes/class-wp-users-list-table.php:566
+#: wp-admin/includes/class-wp-users-list-table.php:570
 msgctxt "no user roles"
 msgid "None"
 msgstr "Không có"
@@ -2377,7 +2377,7 @@ msgid "Your theme supports %s menu. Select which menu appears in each location."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "Giao diện của bạn hỗ trợ %s Menu. Hãy chọn Menu cho từng vị trí."
 
-#: wp-admin/includes/class-wp-users-list-table.php:505
+#: wp-admin/includes/class-wp-users-list-table.php:509
 msgid "%s post by this author"
 msgid_plural "%s posts by this author"
 msgstr[0] "%s bài viết bởi tác giả này"
@@ -2872,7 +2872,7 @@ msgstr "NHẬT KÝ NÂNG CẤP"
 
 #. translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL:
 #. those are placeholders.
-#: wp-admin/includes/misc.php:1161
+#: wp-admin/includes/misc.php:1163
 msgid ""
 "Howdy ###USERNAME###,\n"
 "\n"
@@ -5227,7 +5227,7 @@ msgstr "Tập tin này quá lơn. Tập tin phải có kích thước nhỏ hơn
 msgid "You have used your space quota. Please delete files before uploading."
 msgstr "Bạn đã dùng hết hạn mức lưu trữ. Hãy xóa vài tập tin rồi thử tải lên lần nữa."
 
-#: wp-admin/includes/misc.php:1208
+#: wp-admin/includes/misc.php:1210
 msgid "[%s] New Admin Email Address"
 msgstr "[%s] Địa Chỉ Thư Điện Tử Quản Trị Mới"
 
@@ -5500,26 +5500,27 @@ msgstr "Hiển Thị Thanh Công Cụ khi xem trang mạng"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:399
+#: wp-admin/about.php:435
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết một vấn đề về bảo mật và sửa %2$s lỗi."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:50 wp-admin/about.php:68 wp-admin/about.php:407
+#: wp-admin/about.php:50 wp-admin/about.php:68 wp-admin/about.php:86
+#: wp-admin/about.php:104 wp-admin/about.php:443
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Để biết thêm thông tin, xem <a href=\"%s\">thông báo phát hành</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:39 wp-admin/about.php:57 wp-admin/about.php:403
+#: wp-admin/about.php:75 wp-admin/about.php:93 wp-admin/about.php:439
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết một số vấn đề về bảo mật và sửa %2$s lỗi."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:395
+#: wp-admin/about.php:39 wp-admin/about.php:57 wp-admin/about.php:431
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết %2$s lỗi."
@@ -5528,20 +5529,20 @@ msgstr[0] "<strong>Phiên bản %1$s</strong> đã giải quyết %2$s lỗi."
 msgid "Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab above the screen title."
 msgstr "Chào mừng đến với giao diện Quản trị của WordPress! Đây đơn giản là nơi bạn đăng nhập và truy cập vào các tính năng quản lý website của mình. Bạn có thể xem thêm thông tin trợ giúp bằng cách nhấp vào các mục Trợ giúp ở trên mỗi đầu trang."
 
-#: wp-admin/about.php:386
+#: wp-admin/about.php:422
 msgid "Maintenance and Security Release"
 msgstr "Các bản Bảo Mật và Bảo Trì"
 
-#: wp-admin/about.php:383
+#: wp-admin/about.php:419
 msgid "Security Release"
 msgstr "Các bản Bảo Mật"
 
-#: wp-admin/about.php:380
+#: wp-admin/about.php:416
 msgid "Maintenance Release"
 msgstr "Các bản Bảo Trì"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:392
+#: wp-admin/about.php:428
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Phiên bản %1$s</strong> đã giải quyết một số vấn đề về bảo mật."
 
@@ -5554,7 +5555,7 @@ msgstr "Có gì mới"
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Màn hình này cho phép bạn định nghĩa cấu trúc liên kết tĩnh mặc định. Bạn có thể chon từ các cài đặt thông dụng hoặc tạo một cấu trúc địa chỉ mạng tùy biến."
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:309
 msgid "Return to Updates"
 msgstr "Quay lại Nâng Cấp"
 
@@ -5830,11 +5831,11 @@ msgstr "Do đây là một bản cài đặt đa mạng, bạn có thể thêm t
 msgid "Welcome to WordPress %s"
 msgstr "Chào mừng tới %s của WordPress"
 
-#: wp-admin/about.php:273
+#: wp-admin/about.php:309
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Quay lại Bảng tin &rarr; Cập nhật"
 
-#: wp-admin/about.php:276
+#: wp-admin/about.php:312
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Đến Bảng tin &rarr; Trang chủ"
 
@@ -7684,7 +7685,7 @@ msgstr "Múi giờ này đang sử dụng thời gian kéo dài ngày."
 msgid "Yes, delete these files and data"
 msgstr "Đúng, Xóa những tập tin và dữ liệu này"
 
-#: wp-admin/about.php:276
+#: wp-admin/about.php:312
 msgid "Go to Dashboard"
 msgstr "Xem bảng tin"
 

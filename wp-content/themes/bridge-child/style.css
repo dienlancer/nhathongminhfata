@@ -103,7 +103,7 @@ Template: bridge
 .justify{
 	text-align: justify;
 }
-.clr{clear:both}
+.clr{clear:both;}
 a{color:#333;}
 figure{overflow:hidden;position:relative;display:inline-block;vertical-align:top;}
 figure img{-webkit-transition:all 0.5s linear;transition:all 0.5s linear;-webkit-transform:scale3d(1, 1, 1);transform:scale3d(1, 1, 1);}
@@ -694,7 +694,7 @@ footer{
 	
 	font-size: 30px;
 	font-weight: bold;	
-	text-align: center;	
+	text-align: center;
 
 }
 nav.main_menu>ul>li.active>a{
@@ -704,9 +704,7 @@ nav.main_menu>ul>li.active>a{
 .sticky img.mobile{
 	left: -30px;
 }
-body.single-post .header_bottom{
-	background: #AB0B0B !important;
-}
+
 .jahfcxxbxxz{
 	    font-size: 25px;
     
@@ -741,7 +739,9 @@ nav.main_menu ul li a{
 .sticky nav.main_menu>ul>li>a{
 	padding:0 15px;
 }
-
+input.wpcf7-form-control.wpcf7-date, input.wpcf7-form-control.wpcf7-number, input.wpcf7-form-control.wpcf7-quiz, input.wpcf7-form-control.wpcf7-text, select.wpcf7-form-control.wpcf7-select, textarea.wpcf7-form-control.wpcf7-textarea{
+	border:1px solid #adadad;
+}
 @media (max-width: 768px) {
 	.product-service .owl-prev{
 		top: 90px;

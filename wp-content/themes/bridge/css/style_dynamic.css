@@ -1,3 +1,11 @@
+    /* Webkit */
+    ::selection {
+    background: #81d742;
+    }
+    /* Gecko/Mozilla */
+    ::-moz-selection {
+    background: #81d742;
+    }
 
 
 
@@ -57,6 +65,9 @@
 
 
 
+
+nav.main_menu > ul > li > a{
+	 color: #81d742; 		    				}
 
 
 
@@ -331,6 +342,9 @@
 
 
 
+	aside .widget h5:not(.latest_post_title),
+	.wpb_widgetised_column .widget h5:not(.latest_post_title){
+	color: #dd0000;	}
 
 
 

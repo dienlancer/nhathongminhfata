@@ -50,46 +50,18 @@ add_action('init', 'do_output_buffer');
 add_shortcode( 'bang_le', 'showBanLe' );
 function showBanLe($atts){
 	$att = shortcode_atts( array(
-		'style_icon' => '',        
-	), $atts );	 
-	$style_icon=trim($att['style_icon']);
+		'icon' => '',
+		'slogan'=>''        
+	), $atts );	 	
+	$icon=trim($att['icon']);
+	$slogan=trim($att['slogan']);
 	?>
 	<div class="mmm">
 		<div class="bo-tron">
-			<?php 
-			switch ($style_icon) {
-				case 'heart':
-				echo '<i class="fas fa-heart"></i>';
-				break;	
-				case 'like':
-				echo '<i class="fas fa-thumbs-up"></i>';
-				break;
-				case 'lock':
-				echo '<i class="fas fa-lock"></i>';
-				break;	
-				case 'mobile':
-				echo '<i class="fas fa-mobile-alt"></i>';
-				break;			
-			}
-			?>			
+			<i class="<?php echo $icon; ?>"></i>					
 		</div>	
 		<div class="slogan-bo-tron">
-			<?php 
-			switch ($style_icon) {
-				case 'heart':
-				echo 'Ổn định';
-				break;	
-				case 'like':
-				echo 'Đơn giản';
-				break;
-				case 'lock':
-				echo 'Bảo mật cao';
-				break;	
-				case 'mobile':
-				echo 'Dễ sử dụng';
-				break;			
-			}
-			?>			
+			<?php echo $slogan; ?>			
 		</div>	
 	</div>
 	<?php 
@@ -234,22 +206,7 @@ function showIcon($atts){
 	$icon=trim($att['icon']);
 	?>	
 	<div class="bo-tron-2">
-		<?php 
-		switch ($icon) {
-			case 'heart':
-			echo '<i class="fas fa-heart"></i>';
-			break;	
-			case 'like':
-			echo '<i class="far fa-thumbs-up"></i>';
-			break;
-			case 'lock':
-			echo '<i class="fas fa-lock"></i>';
-			break;	
-			case 'mobile':
-			echo '<i class="fas fa-mobile-alt"></i>';
-			break;			
-		}
-		?>			
+		<i class="<?php echo $icon; ?>"></i>				
 	</div>				
 	<?php 
 }
@@ -365,9 +322,7 @@ function loadListVideo(){
 	$totalItemsPerPage=0;
 	$pageRange=10;
 	$currentPage=1; 
-	if(!empty($zendvn_sp_settings["article_number"])){
-		$totalItemsPerPage=$zendvn_sp_settings["article_number"];        
-	}
+	$totalItemsPerPage=9;
 	if(!empty(@$_POST["filter_page"]))          {
 		$currentPage=@$_POST["filter_page"];  
 	}
@@ -451,9 +406,7 @@ function loadListArticleByCategory($atts){
 	$totalItemsPerPage=0;
 	$pageRange=10;
 	$currentPage=1; 
-	if(!empty($zendvn_sp_settings["article_number"])){
-		$totalItemsPerPage=$zendvn_sp_settings["article_number"];        
-	}
+	$totalItemsPerPage=get_option( 'posts_per_page' );    
 	if(!empty(@$_POST["filter_page"]))          {
 		$currentPage=@$_POST["filter_page"];  
 	}

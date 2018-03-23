@@ -117,7 +117,7 @@ function codeAddress(data) {
 			var marker = new google.maps.Marker({
 				map: map, 
 				position: results[0].geometry.location,
-								icon:  'http://nhathongminhfata.com/wp-content/themes/bridge/img/pin.png',
+								icon:  'http://www.nhathongminhfata.com/wp-content/themes/bridge/img/pin.png',
 								title: data['store_title']
 			});
 			google.maps.event.addListener(marker, 'click', function() {
@@ -150,8 +150,8 @@ function showContactMap() {
 }
 
 var no_ajax_pages = [];
-var qode_root = 'http://nhathongminhfata.com/';
-var theme_root = 'http://nhathongminhfata.com/wp-content/themes/bridge/';
+var qode_root = 'http://www.nhathongminhfata.com/';
+var theme_root = 'http://www.nhathongminhfata.com/wp-content/themes/bridge/';
 var header_style_admin = "";
 if(typeof no_ajax_obj !== 'undefined') {
 	no_ajax_pages = no_ajax_obj.no_ajax_pages;
