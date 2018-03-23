@@ -46,6 +46,21 @@ function do_output_buffer(){
 }
 add_action( 'wp_enqueue_scripts', 'wp_schools_enqueue_scripts', 11);
 add_action('init', 'do_output_buffer');
+/* begin ẩn menu */
+function vnkings_admin_menus() {   
+   remove_menu_page( 'edit.php?post_type=portfolio_page' ); 
+   remove_menu_page( 'edit.php?post_type=testimonials' ); 
+   remove_menu_page( 'edit.php?post_type=slides' ); 
+   remove_menu_page( 'edit.php?post_type=carousels' ); 
+   remove_menu_page( 'edit.php?post_type=masonry_gallery' ); 
+   remove_menu_page( 'edit-comments.php' ); 
+   remove_menu_page( 'tools.php' );     
+   remove_menu_page( 'edit.php?post_type=acf' );   
+   remove_menu_page( 'vc-general' ); 
+   remove_menu_page( 'themes.php' ); 
+}
+add_action( 'admin_menu', 'vnkings_admin_menus' );
+/* end ẩn menu */
 /* begin bản lề */
 add_shortcode( 'bang_le', 'showBanLe' );
 function showBanLe($atts){
