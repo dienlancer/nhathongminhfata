@@ -742,7 +742,15 @@ nav.main_menu ul li a{
 input.wpcf7-form-control.wpcf7-date, input.wpcf7-form-control.wpcf7-number, input.wpcf7-form-control.wpcf7-quiz, input.wpcf7-form-control.wpcf7-text, select.wpcf7-form-control.wpcf7-select, textarea.wpcf7-form-control.wpcf7-textarea{
 	border:1px solid #adadad;
 }
+.ratahippo .wpb_wrapper {
+	padding:0 100px;
+
+}
 @media (max-width: 768px) {
+	.ratahippo .wpb_wrapper {
+		padding:0 0px;
+
+	}
 	.product-service .owl-prev{
 		top: 90px;
 	}
